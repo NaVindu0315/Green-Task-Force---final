@@ -78,6 +78,7 @@
     <Content Include="login_staff.aspx" />
     <Content Include="login_user.aspx" />
     <Content Include="login_webmaster.aspx" />
+    <Content Include="markers.aspx" />
     <Content Include="register.aspx" />
     <Content Include="staff_sign.aspx" />
     <Content Include="styles\Style.css" />
@@ -155,6 +156,13 @@
     </Compile>
     <Compile Include="login_webmaster.aspx.designer.cs">
       <DependentUpon>login_webmaster.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="markers.aspx.cs">
+      <DependentUpon>markers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="markers.aspx.designer.cs">
+      <DependentUpon>markers.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="register.aspx.cs">
